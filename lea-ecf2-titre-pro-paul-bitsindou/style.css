@@ -93,7 +93,7 @@ footer {
     display: flex;
 }
 .parent {
-    justify-items: center;
+    margin: 5px 0 0 700px;
 }
 
 .submit{
@@ -143,5 +143,8 @@ input[type=submit]:hover {
     }
     .wrapper {
         display: block;
+    }
+    .parent {
+        margin: 0 0 0 0;
     }
 }
