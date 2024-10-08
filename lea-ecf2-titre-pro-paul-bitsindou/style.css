@@ -47,6 +47,9 @@ table {
 body {
     font: "Ubuntu", sans-serif;
 }
+button{
+    border-style: none;
+}
 h1 {
     font: "Montserrat", sans-serif;
     text-align: center;
