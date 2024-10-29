@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV de John doe">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="favicon.ico">
+    <title>ECF2</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="/images/logo-john-doe.svg" class="logo" alt="logo">
+            <div class="button">
+                <button id="button1" class="button1"></button>
+                <button id="button2" class="button2"></button>
+            </div>
+            
+        </nav>
+        
+        <h1 class="montserrat">John Doe -Développeur Web</h1>
+    </header>
+    <main class="ubuntu-regular">
+        <section>
+            <h2>Mon profil</h2>
+            <div class="partie1">
+                <div><img src="/images/portrait.jpg" class="portrait" alt="portrait"></div>
+                <div><p>Développeur web de père en fils,passionné par la technologie et l'innovation.
+                    J'ai acquis une expérience en HTML,CSS,JavaScript et Git,
+                    me permettant de créer des sites web performants et esthétiques.
+                    Prêt à relever de nouveaux défis.</p></div>
+            </div>
+        </section>
+       
+        
+        <section>
+            <h2>Mes compétences</h2>
+            <div class="elements">
+                <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank"><img src="/images/html.svg" class="element"  alt="html"></a>
+                <a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank"><img src="/images/css.svg" class="element"  alt="css"></a>
+                <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank"><img src="/images/js.svg" class="element" alt="js"></a>
+                <a href="https://github.com/" target="_blank"><img src="/images/git.svg" class="element" alt="git"></a>
+            </div>
+        </section>
+        <section>
+            <h2>Me contacter</h2>
+            <div >
+                <form action="" class="parent" >
+                    <div class="wrapper">
+                        <div class="div1">
+                            <label for="nom">Nom *</label><br>
+                            <input type="text" name="nom" placeholder="Entrez votre nom" required>
+                        </div>
+                        <div class="div2">
+                            <label for="prenom">Prénom *</label><br>
+                            <input type="text" name="prenom" placeholder="Entrez votre prenom" required>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="div3">
+                            <label for="email">Email *</label><br>
+                            <input type="mail" name="email" placeholder="Entrez votre email" required>
+                        </div>
+                        <div class="div4">
+                            <label for="telephone">Téléphone(facultatif)</label><br>
+                            <input type="tel" name="telephone" placeholder="Entrez votre numero de téléphone">
+                        </div>
+                    </div>
+                   
+                    <div class="div5">
+                        <label for="message">Message *</label><br>
+                        <textarea name="message" minlength="15" placeholder="Entrez votre message" required></textarea><br>
+                        <input type="submit" class="submit" value="Envoyer">
+                    </div>            
+                </form>
+            </div>
+        </section>
+      
+        
+        
+    </main>
+    <footer>
+        <div> &copy John Doe Officiel</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
